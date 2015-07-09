@@ -1,0 +1,11 @@
+.post {
+    padding: 0.25em;
+    margin-bottom: 1.0em;
+    border: thin solid #000000;
+    border-radius: 8px;
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
