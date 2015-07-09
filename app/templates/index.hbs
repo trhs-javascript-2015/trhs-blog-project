@@ -1,6 +1,6 @@
-{{#each post in model}}
+{{#each model as |post|}}
 <div class="post">
     <div class="title">{{post.title}}</div>
-    <div class="content">{{post.content}}</div>
+    <div class="content">{{markdown-to-html markdown=post.content}}</div>
 </div>
 {{/each}}
