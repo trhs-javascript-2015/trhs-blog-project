@@ -4,6 +4,8 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'trhs-blog-project',
     environment: environment,
+    contentSecurityPolicy: { 'connect-src': "'self' wss://*.firebaseio.com" },
+    firebase: 'https://torrid-torch-8279.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
