@@ -14,6 +14,8 @@ export default Ember.Controller.extend({
             });
             
             post.save();
+
+            this.transitionToRoute('index');
         }
     }
 });
